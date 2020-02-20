@@ -1,0 +1,23 @@
+{
+  "name": "webpack-get-custom-arg-and-packagejson-data",
+  "version": "1.2.3",
+  "description": "get custom arguments and package.json data in webpack.",
+  "main": "main.js",
+  "scripts": {
+    "build_dev_channel_gamesdk": "webpack --config ./config/webpack.config.js --mode development --channel gamesdk",
+    "build_dev_channel_default": "webpack --config ./config/webpack.config.js --mode development",
+    "build_pro_channel_gamesdk": "webpack --config ./config/webpack.config.js --mode production --channel gamesdk",
+    "build_pro_channel_default": "webpack --config ./config/webpack.config.js --mode production"
+  },
+  "keywords": [
+    "webpack",
+    "package.json",
+    "arguments"
+  ],
+  "author": "zhaixiaowai",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
