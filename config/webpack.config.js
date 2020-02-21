@@ -2,7 +2,7 @@ const path = require('path');
 var webpack = require('webpack');
 var fs = require("fs");
 
-console.log(__dirname);
+
 /**
  * get package.json version
  */
